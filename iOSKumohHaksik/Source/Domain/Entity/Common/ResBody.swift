@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+protocol ResBodyProtocol {
+    
+}
+
+struct ResBody<T> {
+    let error: Error?
+    let data: T?
+}
+
+struct Error {
+    var message: String
+}

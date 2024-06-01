@@ -1,0 +1,22 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.ruby-lsp": true,
+        "iOSKumohHaksik/iOSKumohHaksik.xcdatamodeld": true,
+        "iOSKumohHaksik/Base.lproj": true,
+        "iOSKumohHaksik/Resource/Assets.xcassets": true
+    },
+    "hide-files.files": [
+        "iOSKumohHaksik/iOSKumohHaksik.xcdatamodeld",
+        "iOSKumohHaksik/Base.lproj",
+        "iOSKumohHaksik/Resource/Assets.xcassets"
+    ],
+    "swift.SDK": "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk",
+    "swift.searchSubfoldersForPackages": true,
+    "swift.sourcekit-lsp.serverPath": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/sourcekit-lsp"
+}

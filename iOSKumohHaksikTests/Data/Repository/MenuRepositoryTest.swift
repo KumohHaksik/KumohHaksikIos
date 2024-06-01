@@ -6,3 +6,16 @@
 //
 
 import Foundation
+import XCTest
+import iOSKumohHaksik
+
+class MenuRepositoryTest : XCTestCase {
+    
+    
+    func testMenuRepository() {
+        
+        
+
+    }
+}
+

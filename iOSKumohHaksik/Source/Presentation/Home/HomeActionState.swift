@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+enum HomeViewModelAction {
+    case fetchMenu
+    case reqeustMenuList
+    case refreshMenuList
+}
+
+
+enum MenuListState {
+    case none
+    case loading
+    case fininsh
+    case error(message: String)
+}

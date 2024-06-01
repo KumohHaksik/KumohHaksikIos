@@ -6,3 +6,18 @@
 //
 
 import Foundation
+
+
+
+private let formatter: DateFormatter = DateFormatter();
+
+
+// MARK: - Date Extension
+extension Date {
+    
+    
+    public func toAPIString() -> String{
+        formatter.dateFormat = "yyyy-MM-dd"
+        return formatter.string(from: self)
+    }
+}

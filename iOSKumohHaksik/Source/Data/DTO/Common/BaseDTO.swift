@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+struct ResponseBody<T: Codable>: Codable {
+    let error: ErrorBody
+    let data: T
+}
+
+struct ErrorBody: Codable {
+    let message: String
+}
+

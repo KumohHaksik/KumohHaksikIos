@@ -7,6 +7,10 @@
 
 import Foundation
 
-struct MenuItem {
-    
+struct MenuItemDTO: Codable {
+    let id: String
+    let mealType: String
+    let haksikType: String
+    let date: Date
+    let menus: String
 }
