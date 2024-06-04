@@ -17,7 +17,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
         window?.rootViewController = HomeViewController(viewModel: HomeViewModel(
-             fetchMenuListUseCase: FetchMenuListUseCase(repository: MenuRepository(service: MenuService()))
+            fetchMenuListUseCase: FetchMenuListUseCase(repository: MenuRepository(service: MenuService())),
+            fetchMenuUseCase: FetchMenuUseCase(repository: MenuRepository(service: MenuService()))
         ));
         window?.makeKeyAndVisible()
     }

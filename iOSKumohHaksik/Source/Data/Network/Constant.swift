@@ -18,19 +18,17 @@ struct MoyaConstant {
 
 
 //TODO: FIX Later 좋은 방법인 아닌거 같음
-enum MealTime: String {
+enum MealTime: String, CaseIterable {
     case 아침 = "breakfast"
     case 점심 = "lunch"
     case 저녁 = "dinner"
-    case error = "error"
 }
 
-enum Location: String {
+enum Location: String,CaseIterable {
     case 학식 = "haksik"
     case 교직원 = "pro"
     case 분식당 = "snack"
     case 오름1동 = "riseF"
     case 오름3동 = "riseS"
     case 푸름 = "poo"
-    case error = "error"
 }

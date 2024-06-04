@@ -7,22 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AA7C9D42C0C788F004ABEB8 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA7C9D32C0C788F004ABEB8 /* MenuCell.swift */; };
+		2AA7C9D62C0C9A38004ABEB8 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA7C9D52C0C9A38004ABEB8 /* Date.swift */; };
+		2AA7C9D82C0CB8DA004ABEB8 /* WeeklyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA7C9D72C0CB8DA004ABEB8 /* WeeklyView.swift */; };
+		2AA7C9DA2C0CC6DE004ABEB8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA7C9D92C0CC6DE004ABEB8 /* BaseViewController.swift */; };
+		2AA7C9DD2C0E03B9004ABEB8 /* PickerModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA7C9DC2C0E03B9004ABEB8 /* PickerModalViewController.swift */; };
+		2AA7C9E02C0E2F9B004ABEB8 /* UIStackVIewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA7C9DF2C0E2F9B004ABEB8 /* UIStackVIewExtension.swift */; };
+		2AA7C9E42C0E3643004ABEB8 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA7C9E32C0E3643004ABEB8 /* Coordinator.swift */; };
+		2AA7C9E62C0EE905004ABEB8 /* SocialEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA7C9E52C0EE905004ABEB8 /* SocialEntity.swift */; };
+		2AA7C9E82C0F076F004ABEB8 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA7C9E72C0F076F004ABEB8 /* CoreDataService.swift */; };
+		2AA7C9F12C0F6ED6004ABEB8 /* MenuContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA7C9F02C0F6ED6004ABEB8 /* MenuContext.swift */; };
+		2AA7C9F82C0F786E004ABEB8 /* MenuDatabase+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA7C9F62C0F786E004ABEB8 /* MenuDatabase+CoreDataClass.swift */; };
+		2AA7C9F92C0F786E004ABEB8 /* MenuDatabase+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA7C9F72C0F786E004ABEB8 /* MenuDatabase+CoreDataProperties.swift */; };
 		2AA8EE722C076A8E0074BAFD /* MenuRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA8EE712C076A8E0074BAFD /* MenuRepositoryProtocol.swift */; };
 		2AA8EE742C076C080074BAFD /* FetchMenuListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA8EE732C076C080074BAFD /* FetchMenuListUseCase.swift */; };
 		2AA8EE782C0821810074BAFD /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA8EE772C0821810074BAFD /* Constant.swift */; };
 		2AA8EE7C2C08255F0074BAFD /* MoyaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA8EE7B2C08255F0074BAFD /* MoyaTest.swift */; };
 		2AA8EE802C084A6C0074BAFD /* DateStringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA8EE7F2C084A6C0074BAFD /* DateStringTest.swift */; };
 		2AA8EE822C085FD80074BAFD /* MenuRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA8EE812C085FD80074BAFD /* MenuRepository.swift */; };
-		2AA8EE842C095B870074BAFD /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA8EE832C095B870074BAFD /* Utils.swift */; };
 		2AA8EE882C0B60AF0074BAFD /* BaseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA8EE872C0B60AF0074BAFD /* BaseDTO.swift */; };
 		2AA8EE8B2C0B8C4E0074BAFD /* MenuRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA8EE8A2C0B8C4E0074BAFD /* MenuRepositoryTest.swift */; };
 		2AA8EE8E2C0B959E0074BAFD /* FetchMenuUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA8EE8D2C0B959E0074BAFD /* FetchMenuUseCase.swift */; };
-		2ADCAB702C046472001B8E12 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 2ADCAB6F2C046472001B8E12 /* FSCalendar */; };
 		2ADCAB722C046F94001B8E12 /* HomeActionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCAB712C046F94001B8E12 /* HomeActionState.swift */; };
 		2ADCAB7B2C04D8A9001B8E12 /* MenuService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCAB7A2C04D8A9001B8E12 /* MenuService.swift */; };
 		2ADCAB7D2C04D8EF001B8E12 /* MenuItemDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCAB7C2C04D8EF001B8E12 /* MenuItemDTO.swift */; };
 		2ADCAB7F2C04D929001B8E12 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCAB7E2C04D929001B8E12 /* MenuItem.swift */; };
-		2ADCAB822C04DAC8001B8E12 /* ResBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCAB812C04DAC8001B8E12 /* ResBody.swift */; };
 		2AF8244E2C0214850035661C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8244D2C0214850035661C /* AppDelegate.swift */; };
 		2AF824502C0214850035661C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8244F2C0214850035661C /* SceneDelegate.swift */; };
 		2AF824582C0214850035661C /* iOSKumohHaksik.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AF824562C0214850035661C /* iOSKumohHaksik.xcdatamodeld */; };
@@ -63,13 +72,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AA7C9D32C0C788F004ABEB8 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		2AA7C9D52C0C9A38004ABEB8 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		2AA7C9D72C0CB8DA004ABEB8 /* WeeklyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyView.swift; sourceTree = "<group>"; };
+		2AA7C9D92C0CC6DE004ABEB8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2AA7C9DC2C0E03B9004ABEB8 /* PickerModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerModalViewController.swift; sourceTree = "<group>"; };
+		2AA7C9DF2C0E2F9B004ABEB8 /* UIStackVIewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackVIewExtension.swift; sourceTree = "<group>"; };
+		2AA7C9E32C0E3643004ABEB8 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		2AA7C9E52C0EE905004ABEB8 /* SocialEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialEntity.swift; sourceTree = "<group>"; };
+		2AA7C9E72C0F076F004ABEB8 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		2AA7C9F02C0F6ED6004ABEB8 /* MenuContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuContext.swift; sourceTree = "<group>"; };
+		2AA7C9F62C0F786E004ABEB8 /* MenuDatabase+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MenuDatabase+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2AA7C9F72C0F786E004ABEB8 /* MenuDatabase+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MenuDatabase+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2AA8EE712C076A8E0074BAFD /* MenuRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRepositoryProtocol.swift; sourceTree = "<group>"; };
 		2AA8EE732C076C080074BAFD /* FetchMenuListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchMenuListUseCase.swift; sourceTree = "<group>"; };
 		2AA8EE772C0821810074BAFD /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		2AA8EE7B2C08255F0074BAFD /* MoyaTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaTest.swift; sourceTree = "<group>"; };
 		2AA8EE7F2C084A6C0074BAFD /* DateStringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateStringTest.swift; sourceTree = "<group>"; };
 		2AA8EE812C085FD80074BAFD /* MenuRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRepository.swift; sourceTree = "<group>"; };
-		2AA8EE832C095B870074BAFD /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		2AA8EE872C0B60AF0074BAFD /* BaseDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDTO.swift; sourceTree = "<group>"; };
 		2AA8EE8A2C0B8C4E0074BAFD /* MenuRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRepositoryTest.swift; sourceTree = "<group>"; };
 		2AA8EE8D2C0B959E0074BAFD /* FetchMenuUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchMenuUseCase.swift; sourceTree = "<group>"; };
@@ -77,7 +97,6 @@
 		2ADCAB7A2C04D8A9001B8E12 /* MenuService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuService.swift; sourceTree = "<group>"; };
 		2ADCAB7C2C04D8EF001B8E12 /* MenuItemDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDTO.swift; sourceTree = "<group>"; };
 		2ADCAB7E2C04D929001B8E12 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
-		2ADCAB812C04DAC8001B8E12 /* ResBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResBody.swift; sourceTree = "<group>"; };
 		2AF8244A2C0214850035661C /* iOSKumohHaksik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSKumohHaksik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF8244D2C0214850035661C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AF8244F2C0214850035661C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,7 +127,6 @@
 				2AF824A22C02172C0035661C /* CombineMoya in Frameworks */,
 				2AF824A72C0217380035661C /* SnapKit in Frameworks */,
 				2AF824A42C02172C0035661C /* Moya in Frameworks */,
-				2ADCAB702C046472001B8E12 /* FSCalendar in Frameworks */,
 				2AF8249C2C0217030035661C /* OHHTTPStubsSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +148,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AA7C9D22C0C7886004ABEB8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2AA7C9D32C0C788F004ABEB8 /* MenuCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2AA7C9DB2C0E0396004ABEB8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2AA7C9D92C0CC6DE004ABEB8 /* BaseViewController.swift */,
+				2AA7C9DC2C0E03B9004ABEB8 /* PickerModalViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2AA7C9DE2C0E2F80004ABEB8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2AA7C9D52C0C9A38004ABEB8 /* Date.swift */,
+				2AA7C9DF2C0E2F9B004ABEB8 /* UIStackVIewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2AA7C9EF2C0F6EC8004ABEB8 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				2AA7C9F62C0F786E004ABEB8 /* MenuDatabase+CoreDataClass.swift */,
+				2AA7C9F72C0F786E004ABEB8 /* MenuDatabase+CoreDataProperties.swift */,
+				2AA7C9F02C0F6ED6004ABEB8 /* MenuContext.swift */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
 		2AA8EE792C0825490074BAFD /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,14 +243,6 @@
 			path = Menu;
 			sourceTree = "<group>";
 		};
-		2ADCAB802C04DAC0001B8E12 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				2ADCAB812C04DAC8001B8E12 /* ResBody.swift */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
 		2AF824412C0214850035661C = {
 			isa = PBXGroup;
 			children = (
@@ -220,7 +266,6 @@
 		2AF8244C2C0214850035661C /* iOSKumohHaksik */ = {
 			isa = PBXGroup;
 			children = (
-				2AF824AA2C021D760035661C /* Common */,
 				2AF824822C0215CF0035661C /* Source */,
 				2AF824812C0215680035661C /* Resource */,
 				2AF824802C02150C0035661C /* App */,
@@ -269,12 +314,13 @@
 		2AF824822C0215CF0035661C /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				2AA7C9DE2C0E2F80004ABEB8 /* Extension */,
+				2AF824AA2C021D760035661C /* Common */,
 				2AF824872C0215EF0035661C /* Domain */,
 				2AF824862C0215EA0035661C /* Data */,
 				2AF824852C0215E30035661C /* Presentation */,
 				2AF824842C0215DB0035661C /* Protocol */,
 				2AF824832C0215D50035661C /* Design */,
-				2AA8EE832C095B870074BAFD /* Utils.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -282,6 +328,7 @@
 		2AF824832C0215D50035661C /* Design */ = {
 			isa = PBXGroup;
 			children = (
+				2AA7C9D72C0CB8DA004ABEB8 /* WeeklyView.swift */,
 			);
 			path = Design;
 			sourceTree = "<group>";
@@ -289,6 +336,7 @@
 		2AF824842C0215DB0035661C /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				2AA7C9E32C0E3643004ABEB8 /* Coordinator.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -296,6 +344,7 @@
 		2AF824852C0215E30035661C /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				2AA7C9DB2C0E0396004ABEB8 /* Common */,
 				2AF824B02C0224050035661C /* Home */,
 			);
 			path = Presentation;
@@ -304,6 +353,7 @@
 		2AF824862C0215EA0035661C /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				2AA7C9EF2C0F6EC8004ABEB8 /* DataBase */,
 				2AF8248B2C0216060035661C /* Network */,
 				2AF8248A2C0216010035661C /* Service */,
 				2AF824892C0215FB0035661C /* Repository */,
@@ -344,6 +394,7 @@
 			isa = PBXGroup;
 			children = (
 				2ADCAB7A2C04D8A9001B8E12 /* MenuService.swift */,
+				2AA7C9E72C0F076F004ABEB8 /* CoreDataService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -360,8 +411,8 @@
 		2AF8248C2C02160E0035661C /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				2ADCAB802C04DAC0001B8E12 /* Common */,
 				2ADCAB7E2C04D929001B8E12 /* MenuItem.swift */,
+				2AA7C9E52C0EE905004ABEB8 /* SocialEntity.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -400,6 +451,7 @@
 		2AF824B02C0224050035661C /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				2AA7C9D22C0C7886004ABEB8 /* Cell */,
 				2AF824902C0216560035661C /* HomeView.swift */,
 				2AF824922C0216600035661C /* HomeViewController.swift */,
 				2AF824942C02166D0035661C /* HomeViewModel.swift */,
@@ -432,7 +484,6 @@
 				2AF824A12C02172C0035661C /* CombineMoya */,
 				2AF824A32C02172C0035661C /* Moya */,
 				2AF824A62C0217380035661C /* SnapKit */,
-				2ADCAB6F2C046472001B8E12 /* FSCalendar */,
 			);
 			productName = iOSKumohHaksik;
 			productReference = 2AF8244A2C0214850035661C /* iOSKumohHaksik.app */;
@@ -511,7 +562,6 @@
 				2AF8249D2C02170D0035661C /* XCRemoteSwiftPackageReference "Then" */,
 				2AF824A02C02172C0035661C /* XCRemoteSwiftPackageReference "Moya" */,
 				2AF824A52C0217380035661C /* XCRemoteSwiftPackageReference "SnapKit" */,
-				2ADCAB6E2C046472001B8E12 /* XCRemoteSwiftPackageReference "FSCalendar" */,
 			);
 			productRefGroup = 2AF8244B2C0214850035661C /* Products */;
 			projectDirPath = "";
@@ -555,26 +605,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AA7C9E82C0F076F004ABEB8 /* CoreDataService.swift in Sources */,
+				2AA7C9D62C0C9A38004ABEB8 /* Date.swift in Sources */,
 				2AA8EE722C076A8E0074BAFD /* MenuRepositoryProtocol.swift in Sources */,
-				2ADCAB822C04DAC8001B8E12 /* ResBody.swift in Sources */,
+				2AA7C9E42C0E3643004ABEB8 /* Coordinator.swift in Sources */,
 				2AA8EE8E2C0B959E0074BAFD /* FetchMenuUseCase.swift in Sources */,
+				2AA7C9DA2C0CC6DE004ABEB8 /* BaseViewController.swift in Sources */,
 				2AF824A92C02185E0035661C /* Moya.swift in Sources */,
 				2AF824582C0214850035661C /* iOSKumohHaksik.xcdatamodeld in Sources */,
+				2AA7C9D82C0CB8DA004ABEB8 /* WeeklyView.swift in Sources */,
 				2AF824952C02166D0035661C /* HomeViewModel.swift in Sources */,
 				2AF824932C0216600035661C /* HomeViewController.swift in Sources */,
 				2ADCAB7B2C04D8A9001B8E12 /* MenuService.swift in Sources */,
 				2AF824AC2C021D800035661C /* Logger.swift in Sources */,
 				2ADCAB7F2C04D929001B8E12 /* MenuItem.swift in Sources */,
+				2AA7C9DD2C0E03B9004ABEB8 /* PickerModalViewController.swift in Sources */,
 				2AA8EE742C076C080074BAFD /* FetchMenuListUseCase.swift in Sources */,
+				2AA7C9E02C0E2F9B004ABEB8 /* UIStackVIewExtension.swift in Sources */,
 				2AA8EE782C0821810074BAFD /* Constant.swift in Sources */,
 				2AF8244E2C0214850035661C /* AppDelegate.swift in Sources */,
+				2AA7C9F82C0F786E004ABEB8 /* MenuDatabase+CoreDataClass.swift in Sources */,
+				2AA7C9F92C0F786E004ABEB8 /* MenuDatabase+CoreDataProperties.swift in Sources */,
 				2AF824972C0216850035661C /* HomeCoordinator.swift in Sources */,
 				2AF824912C0216560035661C /* HomeView.swift in Sources */,
+				2AA7C9E62C0EE905004ABEB8 /* SocialEntity.swift in Sources */,
+				2AA7C9F12C0F6ED6004ABEB8 /* MenuContext.swift in Sources */,
 				2AA8EE882C0B60AF0074BAFD /* BaseDTO.swift in Sources */,
+				2AA7C9D42C0C788F004ABEB8 /* MenuCell.swift in Sources */,
 				2ADCAB7D2C04D8EF001B8E12 /* MenuItemDTO.swift in Sources */,
 				2AA8EE822C085FD80074BAFD /* MenuRepository.swift in Sources */,
 				2ADCAB722C046F94001B8E12 /* HomeActionState.swift in Sources */,
-				2AA8EE842C095B870074BAFD /* Utils.swift in Sources */,
 				2AF824502C0214850035661C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -917,14 +977,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2ADCAB6E2C046472001B8E12 /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.8.4;
-			};
-		};
 		2AF824982C0217030035661C /* XCRemoteSwiftPackageReference "OHHTTPStubs" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AliSoftware/OHHTTPStubs.git";
@@ -960,11 +1012,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2ADCAB6F2C046472001B8E12 /* FSCalendar */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2ADCAB6E2C046472001B8E12 /* XCRemoteSwiftPackageReference "FSCalendar" */;
-			productName = FSCalendar;
-		};
 		2AF824992C0217030035661C /* OHHTTPStubs */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 2AF824982C0217030035661C /* XCRemoteSwiftPackageReference "OHHTTPStubs" */;

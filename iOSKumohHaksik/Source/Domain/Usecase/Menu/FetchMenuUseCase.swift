@@ -18,4 +18,5 @@ public struct FetchMenuUseCase {
     func execute(meal: MealTime,location: Location,date: Date) async throws -> AnyPublisher<MenuItem,MoyaError> {
         return repository.fetchMenu(meal: meal, location: location, date: date)
     }
+    
 }

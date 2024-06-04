@@ -6,3 +6,29 @@
 //
 
 import Foundation
+
+final class CoreDataService {
+  static let shared = CoreDataService()
+
+  private init() {}
+
+  func add() {
+
+  }
+
+  func addrange() {
+
+  }
+
+  func remove() {
+
+  }
+
+  func at() {
+
+  }
+
+  func find() {
+
+  }
+}

@@ -13,4 +13,6 @@ protocol MenuRepositoryProtocol {
     func fetchMenu(meal: MealTime, location: Location,date: Date) ->  AnyPublisher<MenuItem,MoyaError>
     
     func fetchMenuList(meal: MealTime, location: Location, start: Date, end: Date) -> AnyPublisher<[MenuItem],MoyaError>
+    
+    func fetchCoreDataMenu() -> Void
 }

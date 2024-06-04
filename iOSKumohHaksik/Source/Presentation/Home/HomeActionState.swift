@@ -9,8 +9,11 @@ import Foundation
 
 enum HomeViewModelAction {
     case fetchMenu
-    case reqeustMenuList
     case refreshMenuList
+    case fetchMenuList
+    case openSettingModal
+    case selectLocation
+    case selectMeal
 }
 
 

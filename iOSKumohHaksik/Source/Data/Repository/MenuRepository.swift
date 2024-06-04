@@ -10,6 +10,7 @@ import Combine
 import Moya
 
 class MenuRepository: MenuRepositoryProtocol {
+    
     let service: MenuService!
     init(service: MenuService){
         self.service = service
@@ -18,8 +19,8 @@ class MenuRepository: MenuRepositoryProtocol {
     func fetchMenuList(meal: MealTime, location: Location, start: Date, end: Date) -> AnyPublisher<[MenuItem],MoyaError> {
         return service.fetchMenuList(meal: meal, location: location, start: start, end: end)
             .map { response in
-                return response.data.map({ dto in
-                        return MenuItem(dto)
+                return response.data!.map({
+                        return MenuItem($0)
                 })
             }.eraseToAnyPublisher()
     }
@@ -27,10 +28,11 @@ class MenuRepository: MenuRepositoryProtocol {
     func fetchMenu(meal: MealTime, location: Location, date: Date) -> AnyPublisher<MenuItem,MoyaError> {
         return service.fetchMenu(meal: meal, location: location, date: date)
             .map { response in
-                return MenuItem(response.data)
+                return MenuItem(response.data!)
             }
             .eraseToAnyPublisher()
     }
     
-    
+    func fetchCoreDataMenu() {
+    }
 }

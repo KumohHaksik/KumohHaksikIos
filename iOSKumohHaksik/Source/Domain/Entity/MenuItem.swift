@@ -14,10 +14,10 @@ public struct MenuItem {
     let date: Date
     init(_ item: MenuItemDTO) {
         menus = item.menus.split(separator: "^").map(String.init)
-        date = item.date
+        date = item.date.parseAPIString()
         //TODO: fix later
-        time = MealTime(rawValue: item.haksikType) ?? .error
-        location = Location(rawValue: item.haksikType) ?? .error
+        time = MealTime(rawValue: item.haksikType) ?? .저녁
+        location = Location(rawValue: item.haksikType) ?? .교직원
     }
 
 

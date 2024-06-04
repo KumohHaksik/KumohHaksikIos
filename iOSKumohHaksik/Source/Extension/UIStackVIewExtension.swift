@@ -6,3 +6,14 @@
 //
 
 import Foundation
+import UIKit
+
+extension UIStackView {
+  func clearSubView() {
+
+    self.arrangedSubviews.forEach({ x in
+        x.removeFromSuperview()
+    })
+  }
+
+}
